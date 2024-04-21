@@ -1,14 +1,39 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import navlogo from '../../public/images/navlogo.png'
+import './navbar.css'
+
 
 const Navbar = () => {
   return (
-    <nav className='container bg-black p-[30px]'>
-        <div className="nav_wrapper flex items-center justify-center ">
+    // ====== Navbar section ======
+    <nav className=' bg-primary text-white py-4 '>
+        <div className='container'>
+          <div className='nav_wrapper flex items-center justify-between '>
             <div className="nav_logo">
-                <h2>Logo</h2>
+              <img src={navlogo} alt="" />
             </div>
-            <div className="nav_menu"></div>
-            <div className="nav_btn"></div>
+              <div className="nav_menu flex items-center justify-between gap-12">
+                <ul className='flex items-center justify-center gap-8'>
+                    <li>
+                      <NavLink to="/" className='nav_anchor'>home</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/aboutus" className='nav_anchor'>about us</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/features" className='nav_anchor'>features</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/faq" className='nav_anchor'>FAQ</NavLink>   
+                    </li>
+                    <li>
+                      <NavLink to="/blog" className='nav_anchor'>blog</NavLink>
+                    </li>
+                </ul>
+                <div className="nav_btn">contact us</div>
+              </div>
+          </div>
         </div>
     </nav>
   )

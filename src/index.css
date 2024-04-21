@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4.h5,h6,a{
+    text-decoration: none;
+}
+
+@layer components {
+    .nav_anchor {
+      @apply font-poppins text-[#BBBBCB] text-base font-medium leading-7 capitalize;
+    }
+}
+@layer components {
+    .nav_btn {
+      @apply font-poppins text-white text-base font-medium leading-7 capitalize px-12 py-4 rounded-[41px] border-2 border-[#F4F6FC] border-solid;
+    }
+}
