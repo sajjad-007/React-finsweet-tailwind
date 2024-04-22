@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     // ====== Navbar section ======
     <nav className=' bg-primary text-white py-4 '>
-        <div className='container'>
+        <div className='with'>
           <div className='nav_wrapper flex items-center justify-between '>
             <div className="nav_logo">
               <img src={navlogo} alt="" />

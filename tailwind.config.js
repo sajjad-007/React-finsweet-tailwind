@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         'primary': '#1C1E53',
-        'white': '#FFF'
+        'secondary': '#FCD980',
       },
       spacing: {
-        'container': '1280px',
+        'with': '1280px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
