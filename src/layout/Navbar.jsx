@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import navlogo from '../../public/images/navlogo.png'
 import './navbar.css'
 import LogoSvg from '../components/logo/LogoSvg'
+import Button from '../components/button/Button'
 
 
 const Navbar = () => {
@@ -33,7 +34,9 @@ const Navbar = () => {
                       <NavLink to="/blog" className='nav_anchor'>blog</NavLink>
                     </li>
                 </ul>
-                <div className="nav_btn">contact us</div>
+                <div className='btn'>
+                  <Button className='nav_btn' text='contact us'/>
+                </div>
               </div>
           </div>
         </div>

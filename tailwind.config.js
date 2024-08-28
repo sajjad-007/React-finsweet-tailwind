@@ -10,11 +10,12 @@ export default {
         'primary': '#1C1E53',
         'secondary': '#FCD980',
         'sada': '#fff',
-        // 'pera': '#F4F6FC',
+        'black': '#000000',
         'pera': '#f4f6fcce',
       },
       spacing: {
         'container': '1280px',
+        'section_padding' : '128px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',

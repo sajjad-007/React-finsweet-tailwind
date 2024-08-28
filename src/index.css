@@ -30,12 +30,27 @@ h1,h2,h3,h4.h5,h6,a{
     }
 };
 @layer components {
+    .nav_btn2 {
+      @apply font-poppins text-black text-base font-medium leading-7 capitalize px-12 py-4 rounded-[41px] bg-secondary border-2 border-primary border-solid cursor-pointer hover:bg-transparent hover:text-sada hover:border-sada transition-all ease-linear duration-300;
+    }
+};
+@layer components {
     .pera {
       @apply font-poppins text-pera text-base font-medium leading-7 ;
     }
 };
 @layer components {
+    .image_style {
+      @apply h-full w-full bg-cover bg-no-repeat ;
+    }
+};
+@layer components {
+    .heading1 {
+      @apply font-poppins text-sada text-6xl font-semibold  leading-[74px];
+    }
+};
+@layer components {
     .heading2 {
-      @apply font-poppins text-sada text-5xl font-semibold font-medium leading-[64px];
+      @apply font-poppins text-sada text-5xl font-semibold  leading-[64px];
     }
 };
