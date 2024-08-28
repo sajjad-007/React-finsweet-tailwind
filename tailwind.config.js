@@ -9,9 +9,12 @@ export default {
       colors: {
         'primary': '#1C1E53',
         'secondary': '#FCD980',
+        'sada': '#fff',
+        // 'pera': '#F4F6FC',
+        'pera': '#f4f6fcce',
       },
       spacing: {
-        'with': '1280px',
+        'container': '1280px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',

@@ -16,21 +16,26 @@ h1,h2,h3,h4.h5,h6,a{
 
 @layer components {
     .nav_anchor {
-      @apply font-poppins text-[#BBBBCB] text-base font-medium leading-7 capitalize hover:text-white transition-all ease-linear duration-300;
+      @apply font-poppins text-[#BBBBCB] text-base font-medium leading-7 capitalize hover:text-sada transition-all ease-linear duration-300;
     }
 };
 @layer components {
     .foot_anchor {
-      @apply font-poppins text-[#282938] text-base font-medium leading-7 capitalize ;
+      @apply font-poppins text-[#282938]  text-base font-medium leading-7 capitalize ;
     }
 };
 @layer components {
     .nav_btn {
-      @apply font-poppins text-white text-base font-medium leading-7 capitalize px-12 py-4 rounded-[41px] border-2 border-[#F4F6FC] border-solid cursor-pointer hover:bg-secondary hover:text-black transition-all ease-linear duration-300;
+      @apply font-poppins text-sada text-base font-medium leading-7 capitalize px-12 py-4 rounded-[41px] border-2 border-[#F4F6FC] border-solid cursor-pointer hover:bg-secondary hover:text-black hover:border-secondary transition-all ease-linear duration-300;
     }
 };
 @layer components {
     .pera {
-      @apply font-poppins text-white text-base font-medium leading-7 ;
+      @apply font-poppins text-pera text-base font-medium leading-7 ;
+    }
+};
+@layer components {
+    .heading2 {
+      @apply font-poppins text-sada text-5xl font-semibold font-medium leading-[64px];
     }
 };

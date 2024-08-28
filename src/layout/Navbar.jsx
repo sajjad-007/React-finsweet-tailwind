@@ -2,16 +2,18 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import navlogo from '../../public/images/navlogo.png'
 import './navbar.css'
+import LogoSvg from '../components/logo/LogoSvg'
 
 
 const Navbar = () => {
   return (
     // ====== Navbar section ======
     <nav className=' bg-primary text-white py-4 '>
-        <div className='with'>
+        <div className='w-container my-0 mx-auto'>
           <div className='nav_wrapper flex items-center justify-between '>
             <div className="nav_logo">
-              <img src={navlogo} alt="" />
+              {/* <img src={navlogo} alt="" /> */}
+              <LogoSvg/>
             </div>
               <div className="nav_menu flex items-center justify-between gap-12">
                 <ul className='flex items-center justify-center gap-8'>
