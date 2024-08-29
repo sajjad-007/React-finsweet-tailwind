@@ -1,0 +1,13 @@
+/* home view section */
+.home_first_hover{
+    left: -396px;
+}
+.home_hover:hover .home_first_hover{
+    left : 0;
+}
+.item2_now_hover{
+    top: -296px;
+}
+.item2_hover:hover .item2_now_hover{
+    top: 0;
+}

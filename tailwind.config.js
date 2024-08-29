@@ -14,6 +14,7 @@ export default {
         'pera': '#f4f6fcce',
         'blue': '#2405F2',
         'dark-blue': '#282938',
+        'yellow': '#FCD980',
 
       },
       spacing: {
