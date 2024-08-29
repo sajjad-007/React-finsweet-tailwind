@@ -51,6 +51,16 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .heading2 {
-      @apply font-poppins text-sada text-5xl font-semibold  leading-[64px];
+      @apply font-poppins text-dark-blue text-5xl font-semibold  leading-[64px] ; 
+    }
+};
+@layer components {
+    .heading5 {
+      @apply font-poppins text-dark-blue text-3xl font-medium capitalize leading-[48px] ; 
+    }
+};
+@layer components {
+    .Label1 {
+      @apply font-poppins text-blue text-lg font-medium  leading-[32px];
     }
 };

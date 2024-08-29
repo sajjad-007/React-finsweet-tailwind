@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="talk_part flex flex-col gap-5 py-[70px]">
-            <h2 className='heading2'>Lets Talk!</h2>
+            <h2 className='heading2 text-sada'>Lets Talk!</h2>
             <Peragraph className='pera' text={talkPera}/>
             <div className="icons flex gap-7">
               <div className="icon1 h-4 w-4 text-sada text-xl">

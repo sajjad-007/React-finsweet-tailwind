@@ -12,6 +12,9 @@ export default {
         'sada': '#fff',
         'black': '#000000',
         'pera': '#f4f6fcce',
+        'blue': '#2405F2',
+        'dark-blue': '#282938',
+
       },
       spacing: {
         'container': '1280px',
