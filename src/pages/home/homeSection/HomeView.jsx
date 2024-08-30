@@ -25,7 +25,7 @@ const HomeView = () => {
           <div className="view_item_section mt-16 flex gap-8 ">
             <div className="view_item1 w-[843px] h-[600px] overflow-hidden relative home_hover">
               <Image source={ViewFirst} className='image_style ' alt='not found'/>
-              <div className='home_first_hover w-[396px] h-full absolute left-0 group  top-0 bg-gradient-to-t from-[#1c1e53d8] to-[#1c1e536d] pt-[256px] pb-[76px] pr-[48px] pl-[35px] flex flex-col gap-5  transition-all ease-linear duration-300'>
+              <div className='home_first_hover w-[396px] h-full absolute top-0 bg-gradient-to-t from-[#1c1e53d8] to-[#1c1e536d] pt-[256px] pb-[76px] pr-[48px] pl-[35px] flex flex-col gap-5  transition-all ease-linear duration-300'>
                 <h6 className='text-sada text-2xl font-semibold leading-9 '>Workhub office Webflow Webflow Design</h6>
                 <Peragraph className='pera' text={pera1}/>
                 <div>
