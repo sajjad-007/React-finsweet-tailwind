@@ -60,6 +60,11 @@ h1,h2,h3,h4.h5,h6,a{
     }
 };
 @layer components {
+    .heading3 {
+      @apply font-poppins text-dark-blue text-[38px] font-semibold  leading-[56px] ; 
+    }
+};
+@layer components {
     .heading5 {
       @apply font-poppins text-dark-blue text-3xl font-medium capitalize leading-[48px]; 
     }
@@ -71,6 +76,6 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .Label1 {
-      @apply font-poppins text-blue text-lg font-medium  leading-[32px];
+      @apply font-poppins text-blue text-lg font-semibold  leading-[32px] ;
     }
 };
