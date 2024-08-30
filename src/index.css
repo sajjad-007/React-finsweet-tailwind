@@ -36,12 +36,17 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .pera {
-      @apply font-poppins text-pera text-base font-medium leading-7 ;
+      @apply font-poppins text-[#2829389e] text-base font-medium leading-7 ;
     }
 };
 @layer components {
     .image_style {
       @apply h-full w-full bg-cover bg-no-repeat ;
+    }
+};
+@layer components {
+    .sub_heading {
+      @apply font-poppins text-dark-blue text-lg font-medium  leading-[28px] capitalize;
     }
 };
 @layer components {
@@ -56,7 +61,12 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .heading5 {
-      @apply font-poppins text-dark-blue text-3xl font-medium capitalize leading-[48px] ; 
+      @apply font-poppins text-dark-blue text-3xl font-medium capitalize leading-[48px]; 
+    }
+};
+@layer components {
+    .heading6 {
+      @apply font-poppins text-2xl font-medium leading-9 text-dark-blue capitalize; 
     }
 };
 @layer components {

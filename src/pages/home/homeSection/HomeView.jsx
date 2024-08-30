@@ -27,7 +27,7 @@ const HomeView = () => {
               <Image source={ViewFirst} className='image_style ' alt='not found'/>
               <div className='home_first_hover w-[396px] h-full absolute top-0 bg-gradient-to-t from-[#1c1e53d8] to-[#1c1e536d] pt-[256px] pb-[76px] pr-[48px] pl-[35px] flex flex-col gap-5  transition-all ease-linear duration-300'>
                 <h6 className='text-sada text-2xl font-semibold leading-9 '>Workhub office Webflow Webflow Design</h6>
-                <Peragraph className='pera' text={pera1}/>
+                <Peragraph className='pera text-pera' text={pera1}/>
                 <div>
                     <Button className='Label1 text-yellow flex items-center justify-center gap-5 ' text='view project' Children={<FaArrowRightLong />}/>
                 </div>

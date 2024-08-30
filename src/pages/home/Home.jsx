@@ -2,6 +2,7 @@ import React from 'react'
 import HomeBuilding from './homeSection/HomeBuilding'
 import WorkSection from './homeSection/WorkSection'
 import HomeView from './homeSection/HomeView'
+import HomeDesign from './homeSection/HomeDesign'
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <HomeBuilding/>
       <WorkSection/>
       <HomeView/>
+      <HomeDesign/>
     </>
     
   )
