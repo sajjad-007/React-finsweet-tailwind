@@ -41,7 +41,7 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .image_style {
-      @apply h-full w-full bg-cover bg-no-repeat self-stretch;
+      @apply h-full w-full bg-cover  bg-no-repeat shrink-0;
     }
 };
 @layer components {
@@ -80,7 +80,12 @@ h1,h2,h3,h4.h5,h6,a{
     }
 };
 @layer components {
+    .label2 {
+      @apply font-poppins text-[#282938c9] text-base font-normal  leading-9 ;
+    }
+};
+@layer components {
     .practice {
-      @apply font-poppins text-blue text-lg font-semibold  leading-[32px] bg-[rgba(255, 255, 255, 0.05)] ;
+      @apply font-poppins text-blue text-lg font-semibold  leading-[32px] bg-[#f4f6fcca] ;
     }
 };

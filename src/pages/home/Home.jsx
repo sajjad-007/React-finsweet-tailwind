@@ -6,6 +6,7 @@ import HomeDesign from './homeSection/HomeDesign'
 import HomeAbout from './homeSection/HomeAbout'
 import HomeFaq from './homeSection/HomeFaq'
 import HomeStartUp from './homeSection/HomeStartUp'
+import HomeBlog from './homeSection/HomeBlog'
 
 
 const Home = () => {
@@ -40,8 +41,9 @@ const Home = () => {
       <HomeStartUp/>
     {/* // start up section end*/}
 
-    {/* // building section start*/}
-    {/* // building section end*/}
+    {/* // blog section start*/}
+      <HomeBlog/>
+    {/* // blog section end*/}
     </>
     
   )

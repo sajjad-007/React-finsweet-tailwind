@@ -20,6 +20,7 @@ export default {
       spacing: {
         'container': '1280px',
         'section_padding' : '128px',
+        'section_margin' : '128px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
