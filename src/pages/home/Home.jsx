@@ -5,6 +5,7 @@ import HomeView from './homeSection/HomeView'
 import HomeDesign from './homeSection/HomeDesign'
 import HomeAbout from './homeSection/HomeAbout'
 import HomeFaq from './homeSection/HomeFaq'
+import HomeStartUp from './homeSection/HomeStartUp'
 
 
 const Home = () => {
@@ -34,6 +35,10 @@ const Home = () => {
     {/* // Faq section start*/}
       <HomeFaq/>
     {/* // Faq section end*/}
+
+    {/* // start up section start*/}
+      <HomeStartUp/>
+    {/* // start up section end*/}
 
     {/* // building section start*/}
     {/* // building section end*/}
