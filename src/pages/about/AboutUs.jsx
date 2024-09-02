@@ -2,6 +2,7 @@ import React from 'react'
 import AboutProblem from './aboutSections/AboutProblem'
 import AboutFocus from './aboutSections/AboutFocus'
 import AboutProcess from './aboutSections/AboutProcess'
+import AboutInspire from './aboutSections/AboutInspire'
 
 const AboutUs = () => {
   return (
@@ -18,6 +19,16 @@ const AboutUs = () => {
         <AboutProcess/>
       {/* // process section end here */}
 
+      {/* // Inspire section start here */}
+        <AboutInspire/>
+      {/* // Inspire section end here */}
+
+      {/* // Problem section start here */}
+      {/* // Problem section end here */}
+
+      {/* // Problem section start here */}
+      {/* // Problem section end here */}
+      
       {/* // Problem section start here */}
       {/* // Problem section end here */}
     </div>

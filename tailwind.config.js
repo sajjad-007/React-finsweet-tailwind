@@ -13,6 +13,7 @@ export default {
         'black': '#000000',
         'pera': '#f4f6fcce',
         'blue': '#2405F2',
+        'accent':'#EEF4FA',
         'dark-blue': '#282938',
         'dark-blue-lite': '#2829389e',
         'yellow': '#FCD980',
