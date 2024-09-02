@@ -28,6 +28,9 @@ const Navbar = () => {
                       <NavLink to="/features" className='nav_anchor'>features</NavLink>
                     </li>
                     <li>
+                      <NavLink to="/pricing" className='nav_anchor'>pricing</NavLink>
+                    </li>
+                    <li>
                       <NavLink to="/faq" className='nav_anchor'>FAQ</NavLink>   
                     </li>
                     <li>
