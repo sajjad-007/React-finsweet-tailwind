@@ -33,31 +33,6 @@ const AboutInspire = () => {
                         </div>
                     </div>
                 </div>
-                {/* item sets */}
-                <div className="sub_wrapper flex flex-col gap-24">
-                    <div className="section1 flex flex-wrap gap-36 ">
-                        <div className="content_part flex flex-col gap-4 w-[623px] mt-[54px]">
-                            <h6 className='label2 capitalize text-dark-blue font-medium'>our mission</h6>
-                            <h3 className='heading3 capitalize w-[623px]'>Inspire, Innovate, Share</h3>
-                            <Peragraph className='pera w-[623px]' text={pera1}/>
-                        </div>
-                        <div className="Img_part w-[513px] h-[336px] overflow-hidden">
-                            <Image className='h-full w-full object-cover bg-no-repeat' source={SingleImg} alt='not found'/>
-                        </div>
-                    </div>
-                    <div className="section1 flex flex-wrap gap-36">
-                        <div className="Img_part w-[513px] h-[336px] overflow-hidden">
-                            <Image className='h-full w-full object-cover bg-no-repeat' source={GroupImg} alt='not found'/>
-                        </div>
-                        <div className="content_part flex flex-col gap-4 w-[623px] mt-[54px]">
-                            <h6 className='label2 capitalize text-dark-blue font-medium'>our mission</h6>
-                            <h3 className='heading3 capitalize w-[623px]'>laser focus</h3>
-                            <Peragraph className='pera w-[623px]' text={pera1}/>
-                        </div>
-                    </div>
-                </div>
-
-            
             </div>
         </div>
     </div>
