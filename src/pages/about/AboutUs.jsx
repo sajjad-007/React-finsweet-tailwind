@@ -4,6 +4,7 @@ import AboutFocus from './aboutSections/AboutFocus'
 import AboutProcess from './aboutSections/AboutProcess'
 import AboutInspire from './aboutSections/AboutInspire'
 import AboutBenefit from './aboutSections/AboutBenefit'
+import AboutMeet from './aboutSections/AboutMeet'
 
 const AboutUs = () => {
   return (
@@ -25,11 +26,12 @@ const AboutUs = () => {
       {/* // Inspire section end here */}
 
       {/* // Problem section start here */}
-      <AboutBenefit/>
+        <AboutBenefit/>
       {/* // Problem section end here */}
 
-      {/* // Problem section start here */}
-      {/* // Problem section end here */}
+      {/* // Meet section start here */}
+        <AboutMeet/>
+      {/* // Meet section end here */}
       
       {/* // Problem section start here */}
       {/* // Problem section end here */}
