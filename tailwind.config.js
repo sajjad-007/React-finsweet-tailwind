@@ -17,6 +17,8 @@ export default {
         'dark-blue': '#282938',
         'dark-blue-lite': '#2829389e',
         'yellow': '#FCD980',
+        'green': '#97DAAD',
+        
 
       },
       spacing: {

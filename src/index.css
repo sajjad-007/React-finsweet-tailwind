@@ -35,6 +35,11 @@ h1,h2,h3,h4.h5,h6,a{
     }
 };
 @layer components {
+    .nav_btn3 {
+      @apply font-poppins text-sada text-base font-medium leading-7 capitalize px-12 py-4 rounded-[41px] bg-dark-blue border-2 border-primary border-solid cursor-pointer hover:bg-secondary hover:text-dark-blue hover:border-sada transition-all ease-linear duration-300;
+    }
+};
+@layer components {
     .pera {
       @apply font-poppins text-[#2829389e] text-base font-medium leading-7 ;
     }
@@ -81,7 +86,7 @@ h1,h2,h3,h4.h5,h6,a{
 };
 @layer components {
     .label2 {
-      @apply font-poppins text-[#282938c9] text-base font-normal  leading-9 ;
+      @apply font-poppins text-[#282938c9] text-base font-normal  leading-9 ; 
     }
 };
 @layer components {
