@@ -1,6 +1,6 @@
 import React from 'react'
 import HeadingOneImg from '../../../assets/images/home/heading_img.png'
-import Peragraph from '../../../components/headings/peragraph/Peragraph';
+import Peragraph from '../../../components/peragraph/Peragraph';
 import Button from '../../../components/button/Button';
 import Image from '../../../components/Image';
 

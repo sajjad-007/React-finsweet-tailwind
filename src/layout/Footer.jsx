@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import footImg from '../../public/images/navlogo.png'
-import Peragraph from '../components/headings/peragraph/Peragraph'
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import LogoSvg from '../components/logo/LogoSvg';
+import Peragraph from '../components/peragraph/Peragraph';
 
 
 

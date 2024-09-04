@@ -1,6 +1,6 @@
 import React from 'react'
 import Span from '../../../components/span/Span'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 
 const AboutProcess = () => {
     let pera1 = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import Image from '../../../components/Image'
 import SingleImg from '../../../assets/images/about/single.jpg'
 import GroupImg from '../../../assets/images/about/group.jpg'

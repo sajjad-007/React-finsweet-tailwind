@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../../../components/Image'
 import BlogImg from '../../../assets/images/home/image.jpg'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import Button from '../../../components/button/Button'
 import { FaArrowRightLong } from 'react-icons/fa6'
 

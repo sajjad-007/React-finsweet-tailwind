@@ -1,12 +1,13 @@
 import React from 'react'
-import Peragraph from '../../components/headings/peragraph/Peragraph'
-import Span from '../../components/span/Span'
+ import Span from '../../components/span/Span'
 import { IoLogoGooglePlaystore } from 'react-icons/io5'
 import Button from '../../components/button/Button'
 import './pricing.css'
 import Ul from '../../components/ul/Ul'
 import List from '../../components/List/List'
 import Div from '../../components/div/Div'
+import Peragraph from '../../components/peragraph/Peragraph'
+
 
 const PricingChart = () => {
     let pera1 = "When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them."

@@ -1,8 +1,9 @@
 import React from 'react'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io'
 import Image from '../../../components/Image'
 import AboutImg from '../../../assets/images/home/about.png'
+import Peragraph from '../../../components/peragraph/Peragraph'
+
 
 const HomeAbout = () => {
     let pera1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."

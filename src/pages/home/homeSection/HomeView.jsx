@@ -5,7 +5,7 @@ import Image from '../../../components/Image'
 import ViewFirst from '../../../assets/images/home/view_first.svg'
 import ViewSecond from '../../../assets/images/home/view_third.svg'
 import ViewThird from '../../../assets/images/home/view_second.svg'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import './home.css'
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Span from '../../../components/span/Span'
 import { CgProfile } from 'react-icons/cg'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import { FaCheckCircle, FaPencilRuler, FaStopwatch } from 'react-icons/fa'
 import { FaMessage } from 'react-icons/fa6'
 import { MdOutlineNoteAlt } from 'react-icons/md'

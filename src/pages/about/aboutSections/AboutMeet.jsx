@@ -1,5 +1,5 @@
 import React from 'react'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import Image from '../../../components/Image'
 import MeetImg from '../../../assets/images/about/meet.jpg'
 import './about.css'

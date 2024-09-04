@@ -1,9 +1,9 @@
 import React from 'react'
 import Span from '../../components/span/Span'
-import Peragraph from '../../components/headings/peragraph/Peragraph'
 import { ImCross } from 'react-icons/im'
 import { FaPlus } from 'react-icons/fa'
 import Div from '../../components/div/Div'
+import Peragraph from '../../components/peragraph/Peragraph'
 
 
 const PricingFaq = () => {

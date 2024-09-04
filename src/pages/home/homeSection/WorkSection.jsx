@@ -2,7 +2,7 @@ import React from 'react'
 import Span from '../../../components/span/Span';
 import HowImg from '../../../assets/images/home/how.svg'
 import { FaArrowRightLong } from 'react-icons/fa6';
-import Peragraph from '../../../components/headings/peragraph/Peragraph';
+import Peragraph from '../../../components/peragraph/Peragraph';
 import Button from '../../../components/button/Button';
 import Image from '../../../components/Image';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Span from '../../../components/span/Span'
-import Peragraph from '../../../components/headings/peragraph/Peragraph'
+import Peragraph from '../../../components/peragraph/Peragraph'
 import { FaStopwatch } from 'react-icons/fa'
 import { MdOutlineNoteAlt } from 'react-icons/md'
 import { FaMessage } from 'react-icons/fa6'
