@@ -1,6 +1,6 @@
 import React from 'react'
 import Peragraph from '../../../components/peragraph/Peragraph'
-import SingleImg from '../../../assets/images/about/single.jpg'
+import SingleImg from '../../../assets/images/feature/feature3.png'
 import Image from '../../../components/Image'
 
 const FeatureSupport = () => {

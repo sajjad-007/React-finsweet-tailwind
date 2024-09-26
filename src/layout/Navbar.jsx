@@ -4,16 +4,20 @@ import navlogo from '../../public/images/navlogo.png'
 import './navbar.css'
 import LogoSvg from '../components/logo/LogoSvg'
 import Button from '../components/button/Button'
+import { useNavigate } from "react-router-dom";
 
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  let HandleNavlogo = ()=>{
+    navigate("/")
+  }
   return (
     // ====== Navbar section ======
     <nav className=' bg-primary text-white py-4 '>
         <div className='w-container my-0 mx-auto'>
-          <div className='nav_wrapper flex items-center justify-between '>
-            <div className="nav_logo">
-              {/* <img src={navlogo} alt="" /> */}
+          <div className='nav_wrapper flex items-center justify-between'>
+            <div className="nav_logo cursor-pointer" onClick={HandleNavlogo}>
               <LogoSvg/>
             </div>
               <div className="nav_menu flex items-center justify-between gap-12">

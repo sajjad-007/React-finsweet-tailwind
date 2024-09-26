@@ -36,7 +36,7 @@ const HomeFaq = () => {
                                 <Span className="heading6 text-blue" text='02'/>
                                 <div className='flex justify-between items-start'>
                                     <div className="content flex flex-col gap-4">
-                                        <h6 className='heading6'>How much time does it take?</h6>
+                                        <h6 className='heading6'>What is your class naming convention?</h6>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const HomeFaq = () => {
                                 <Span className="heading6 text-blue" text='03'/>
                                 <div className='flex justify-between items-start'>
                                     <div className="content flex flex-col gap-4">
-                                        <h6 className='heading6'>How much time does it take?</h6>
+                                        <h6 className='heading6'>How do you communicate?</h6>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const HomeFaq = () => {
                                 <Span className="heading6 text-blue" text='04'/>
                                 <div className='flex justify-between items-start'>
                                     <div className="content flex flex-col gap-4">
-                                        <h6 className='heading6'>How much time does it take?</h6>
+                                        <h6 className='heading6'>I have a bigger project. Can you handle it?</h6>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const HomeFaq = () => {
                                 <Span className="heading6 text-blue" text='05'/>
                                 <div className='flex justify-between items-start'>
                                     <div className="content flex flex-col gap-4">
-                                        <h6 className='heading6'>How much time does it take?</h6>
+                                        <h6 className='heading6'>What is your class naming convention?</h6>
                                     </div>
                                 </div>
                             </div>

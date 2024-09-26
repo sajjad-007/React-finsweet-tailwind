@@ -7,10 +7,16 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import LogoSvg from '../components/logo/LogoSvg';
 import Peragraph from '../components/peragraph/Peragraph';
+import { useNavigate } from "react-router-dom";
 
 
 
 const Footer = () => {
+  const navigate = useNavigate();
+  let handleFootlogo = ()=>{
+    navigate("/")
+  }
+  
   let para = 'We are always open to discuss your project and improve your online presence.'
   let talkPera = 'We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.'
   return (
@@ -19,8 +25,7 @@ const Footer = () => {
       <div className='w-container my-0 mx-auto '>
         <div className="footer_wrapper  pr-[220px] flex items-center  gap-[141px]">
           <div className="fins_part pt-[100px]">
-            <div className="head">
-              {/* <img src={footImg} alt="not found" /> */}
+            <div className="head cursor-pointer" onClick={handleFootlogo}>
               <LogoSvg/>
               <p className='pera w-[400px] mt-[22px] mb-20'>{para}</p>
             </div>
@@ -39,16 +44,16 @@ const Footer = () => {
             <h2 className='heading2 text-sada'>Lets Talk!</h2>
             <Peragraph className='pera text-[#f4f6fcca]' text={talkPera}/>
             <div className="icons flex gap-7">
-              <div className="icon1 h-4 w-4 text-sada text-xl">
+              <div className="icon1 h-4 w-4 text-sada text-xl cursor-pointer">
                 <FaFacebook />
               </div>
-              <div className="icon1 h-4 w-4 text-sada text-xl">
+              <div className="icon1 h-4 w-4 text-sada text-xl cursor-pointer">
                 <FaTwitter />
               </div>
-              <div className="icon1 h-4 w-4 text-sada text-xl">
+              <div className="icon1 h-4 w-4 text-sada text-xl cursor-pointer">
                 <FaInstagram />
               </div>
-              <div className="icon1 h-4 w-4 text-sada text-xl">
+              <div className="icon1 h-4 w-4 text-sada text-xl cursor-pointer">
                 <FaLinkedinIn />
               </div>
             </div>

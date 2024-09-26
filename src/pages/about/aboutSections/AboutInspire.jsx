@@ -1,8 +1,8 @@
 import React from 'react'
 import Peragraph from '../../../components/peragraph/Peragraph'
 import Image from '../../../components/Image'
-import SingleImg from '../../../assets/images/about/single.jpg'
-import GroupImg from '../../../assets/images/about/group.jpg'
+import SingleImg from '../../../assets/images/about/inspire1.jpg'
+import GroupImg from '../../../assets/images/about/inspire2.jpg'
 
 const AboutInspire = () => {
     let pera1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."

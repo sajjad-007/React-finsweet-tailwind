@@ -23,7 +23,7 @@ const PricingFaq = () => {
                                     <Span className="heading6 text-blue" text='01'/>
                                     <Div className='flex justify-between items-start'>
                                         <Div className="content flex flex-col gap-4">
-                                            <h6 className='heading6'>How much time does it take?</h6>
+                                            <h6 className='heading6'>What is your class naming convention ?</h6>
                                             <Peragraph className='w-[624px] pera' text={pera}/>
                                         </Div>
                                     </Div>
@@ -38,7 +38,7 @@ const PricingFaq = () => {
                                     <Span className="heading6 text-blue" text='02'/>
                                     <Div className='flex justify-between items-start'>
                                         <Div className="content flex flex-col gap-4">
-                                            <h6 className='heading6'>How much time does it take?</h6>
+                                            <h6 className='heading6'>How do we communicate ?</h6>
                                         </Div>
                                     </Div>
                                 </Div>
@@ -54,7 +54,7 @@ const PricingFaq = () => {
                                     <Span className="heading6 text-blue" text='03'/>
                                     <Div className='flex justify-between items-start'>
                                         <Div className="content flex flex-col gap-4">
-                                            <h6 className='heading6'>How much time does it take?</h6>
+                                            <h6 className='heading6'>I have a bigger project. Can you handle it ?</h6>
                                         </Div>
                                     </Div>
                                 </Div>
@@ -68,7 +68,7 @@ const PricingFaq = () => {
                                     <Span className="heading6 text-blue" text='04'/>
                                     <Div className='flex justify-between items-start'>
                                         <Div className="content flex flex-col gap-4">
-                                            <h6 className='heading6'>How much time does it take?</h6>
+                                            <h6 className='heading6'>What is your class naming convention ?</h6>
                                         </Div>
                                     </Div>
                                 </Div>

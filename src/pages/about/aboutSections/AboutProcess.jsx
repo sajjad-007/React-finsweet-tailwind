@@ -26,7 +26,7 @@ const AboutProcess = () => {
                             </div>
                             <Span className='h-1 w-[224px] bg-[#2505f297] decoration-dotted'/>
                         </div>
-                        <h6 className='heading6 w-72 mt-8 mb-2'>planning</h6>
+                        <h6 className='heading6 w-72 mt-8 mb-2'>conception</h6>
                         <Peragraph className='pera w-64' text={pera1}/>
                     </div>
                     {/* //item boxes*/}
@@ -36,7 +36,7 @@ const AboutProcess = () => {
                             </div>
                             <Span className='h-1 w-[224px] bg-[#2505f297] decoration-dotted'/>
                         </div>
-                        <h6 className='heading6 w-72 mt-8 mb-2'>planning</h6>
+                        <h6 className='heading6 w-72 mt-8 mb-2'>design</h6>
                         <Peragraph className='pera w-64' text={pera1}/>
                     </div>
                     {/* //item boxes*/}
@@ -46,7 +46,7 @@ const AboutProcess = () => {
                             </div>
                             <Span className='h-1 w-[224px] bg-[#2505f297] decoration-dotted'/>
                         </div>
-                        <h6 className='heading6 w-72 mt-8 mb-2'>planning</h6>
+                        <h6 className='heading6 w-72 mt-8 mb-2'>development</h6>
                         <Peragraph className='pera w-64' text={pera1}/>
                     </div>
                     {/* //item boxes*/}

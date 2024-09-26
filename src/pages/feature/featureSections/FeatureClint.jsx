@@ -1,7 +1,7 @@
 import React from 'react'
 import Peragraph from '../../../components/peragraph/Peragraph'
 import Image from '../../../components/Image'
-import SingleImg from '../../../assets/images/about/single.jpg'
+import SingleImg from '../../../assets/images/feature/feature1.png'
 
 
 const FeatureClint = () => {

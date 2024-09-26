@@ -23,27 +23,27 @@ const HomeDesign = () => {
                 </div>
                 <div className="item_box w-[405px] bg-sada pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <FaCheckCircle className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Two Free Revision Round</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </div>
                 <div className="item_box w-[405px] bg-sada pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <FaPencilRuler className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Template Customization</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </div>
                 <div className="item_box w-[405px] bg-sada pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <FaMessage className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>24/7 Support</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </div>
                 <div className="item_box w-[405px] bg-sada pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <FaStopwatch className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Quick Delivery</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </div>
                 <div className="item_box w-[405px] bg-sada pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <MdOutlineNoteAlt className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Hands-on approach</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </div>
             </div>

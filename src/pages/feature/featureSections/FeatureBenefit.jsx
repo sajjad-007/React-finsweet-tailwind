@@ -15,7 +15,7 @@ const FeatureBenefit = () => {
             <Div className="feature_items flex flex-wrap gap-8 justify-between mt-12">
                 <Div className="item_box w-[405px] bg-accent pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <FaMessage className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Customize with ease</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </Div>
                 <Div className="item_box w-[405px] bg-accent pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
@@ -25,7 +25,7 @@ const FeatureBenefit = () => {
                 </Div>
                 <Div className="item_box w-[405px] bg-accent pt-[58px] pb-[48px] pr-[48px] pl-[32px] flex flex-col gap-5">
                     <MdOutlineNoteAlt className='text-4xl text-blue'/>
-                    <h4 className='heading6'>Uses Client First</h4>
+                    <h4 className='heading6'>Perfectly Responsive</h4>
                     <Peragraph className='pera w-[324px] text-[#2829389e]' text={pera}/>
                 </Div>
             </Div>

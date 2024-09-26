@@ -2,7 +2,7 @@ import React from 'react'
 import Div from '../../../components/div/Div'
 import Image from '../../../components/Image'
 import Peragraph from '../../../components/peragraph/Peragraph'
-import GroupImg from '../../../assets/images/about/group.jpg'
+import GroupImg from '../../../assets/images/feature/feature4.png'
 
 const FeatureDelivery = () => {
     let pera1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."

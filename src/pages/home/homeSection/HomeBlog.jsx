@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from '../../../components/Image'
 import BlogImg from '../../../assets/images/home/image.jpg'
+import BlogImg2 from '../../../assets/images/home/blog2.png'
+import BlogImg3 from '../../../assets/images/home/blog3.png'
 import Peragraph from '../../../components/peragraph/Peragraph'
 import Button from '../../../components/button/Button'
 import { FaArrowRightLong } from 'react-icons/fa6'
@@ -30,7 +32,7 @@ const HomeBlog = () => {
                 </div>
                 <div className="item_box w-[405px] h-auto">
                     <div className="img w-full h-72  mb-10 overflow-hidden bg-green-700">
-                        <Image source={BlogImg} alt='not found' className='h-full w-full object-cover bg-no-repeat'/>
+                        <Image source={BlogImg2} alt='not found' className='h-full w-full object-cover bg-no-repeat'/>
                     </div>
                     <div className="content flex flex-col gap-5">
                         <Peragraph className='label2' text='19 Jan 2022'/>
@@ -43,7 +45,7 @@ const HomeBlog = () => {
                 </div>
                 <div className="item_box w-[405px] h-auto">
                     <div className="img w-full h-72  mb-10 overflow-hidden bg-green-700">
-                        <Image source={BlogImg} alt='not found' className='h-full w-full object-cover bg-no-repeat'/>
+                        <Image source={BlogImg3} alt='not found' className='h-full w-full object-cover bg-no-repeat'/>
                     </div>
                     <div className="content flex flex-col gap-5">
                         <Peragraph className='label2' text='19 Jan 2022'/>

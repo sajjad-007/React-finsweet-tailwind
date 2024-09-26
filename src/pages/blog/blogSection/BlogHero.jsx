@@ -1,7 +1,7 @@
 import React from 'react'
 import Peragraph from '../../../components/peragraph/Peragraph'
 import Image from '../../../components/Image'
-import BlogImg from '../../../assets/images/blog/double.jpg'
+import BlogHeroImg from '../../../assets/images/blog/blog_hero.png'
 import { Link } from 'react-router-dom'
 
 const BlogHero = () => {
@@ -19,7 +19,7 @@ const BlogHero = () => {
                     </div>
                 </div>
                 <div className="img_section w-full h-[477px] overflow-hidden">
-                    <Image className='h-full w-full object-cover bg-no-repeat' source={BlogImg} alt='not found'/>
+                    <Image className='h-full w-full object-cover bg-no-repeat' source={BlogHeroImg} alt='not found'/>
                 </div>
                 <div className="content2 flex flex-col gap-4 items-center justify-center">
                     <Peragraph className='pera w-[831px] text-center mx-auto' text={pera1}/>
