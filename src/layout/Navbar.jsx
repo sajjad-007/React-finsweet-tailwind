@@ -12,6 +12,9 @@ const Navbar = () => {
   let HandleNavlogo = ()=>{
     navigate("/")
   }
+  let HandleContactUs = ()=>{
+    navigate("/contact")
+  }
   return (
     // ====== Navbar section ======
     <nav className=' bg-primary text-white py-4 '>
@@ -42,7 +45,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className='btn'>
-                  <Button className='nav_btn' text='contact us'/>
+                  <Button className='nav_btn' text='contact us' onClick={HandleContactUs}/>
                 </div>
               </div>
           </div>
